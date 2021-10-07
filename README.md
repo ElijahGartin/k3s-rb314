@@ -21,16 +21,12 @@
 
 ## Original Project
 
----
-
 This project was inspired by [Network Chuck](https://www.networkchuck.com/), specifically his [video](https://youtu.be/X9fSMGkjtug) where he created a kubernetes cluster with raspberry Pis.
 
 Thank you **Network Chuck** for making an awesome video and going through all the steps to get it working and really showing the power of kubernetes and raspberry pis.
 
 I reproduced the project during "Hack Week" at my company.  I put some scripts together for some of the "manual" steps Chuck has you do in his guide.  I'm hoping to expand on this project by adding some more automation with ansible playbooks for the next hack week. I'm also hoping to get 6 more raspberry pi 4 model Bs to put in this tower. >.<
 ## Notes
-
----
 
 I reference some of the scripts I created in these notes. Keep in mind that some of these scripts require that you understand how they work and that you need to pass some arguments to them in order for them to automate some of the typing or copy pasting.
 
