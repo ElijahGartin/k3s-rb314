@@ -27,7 +27,7 @@ This project was inspired by [Network Chuck](https://www.networkchuck.com/), spe
 
 Thank you **Network Chuck** for making an awesome video and going through all the steps to get it working and really showing the power of kubernetes and raspberry pis.
 
-I reproduced the project during "Hack Week" at my company.  I put some scripts together for some of the "manual" steps Chuck has you do in his guide.  I'm hoping to expand on this project by adding some more automation with ansible playbooks for the next hack week.
+I reproduced the project during "Hack Week" at my company.  I put some scripts together for some of the "manual" steps Chuck has you do in his guide.  I'm hoping to expand on this project by adding some more automation with ansible playbooks for the next hack week. I'm also hoping to get 6 more raspberry pi 4 model Bs to put in this tower. >.<
 ## Notes
 
 ---
