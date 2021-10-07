@@ -1,0 +1,7 @@
+curl -sfL https://get.k3s.io | K3S_TOKEN="K10647793edae0cbe35bc8463911cdedb4e8706e690e0533519666c5679546b5746::server:2d2717fc86b0b3087d51b87fb55c83cd" K3S_URL="https://trrb314-0:6443" K3S_NODE_NAME="trrb314-1" sh -
+
+rancher: 5XPFYA9xAtttzl9u
+
+kubectl apply -f https://192.168.50.14/v3/import/ckrslj477wfvstq7n4x8grljdngkbjhkqkqxn8p8vkkd4f8mxl9z9z_c-m-7l4xnn8v.yaml 
+
+curl --insecure -sfL https://192.168.50.14/v3/import/ckrslj477wfvstq7n4x8grljdngkbjhkqkqxn8p8vkkd4f8mxl9z9z_c-m-7l4xnn8v.yaml | kubectl apply -f -
