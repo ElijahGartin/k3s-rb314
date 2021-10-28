@@ -50,6 +50,10 @@ I added a script [iptables.sh](#iptables-shell-script) to make that a little bit
 
 Not much to update here, I could put in a script here just to pull out the node token after K3s master finishes setting up, but honestly it's not that much of an extra step to run a cat on the system to get the node token.
 
+`curl -sfL https://get.k3s.io | K3S_KUBECONFIG_MODE="644" sh -s -`
+
+`sudo cat /var/lib/rancher/k3s/server/node-token`
+
 ### **Step 4:** K3s Worker Install
 
 I added a [#k3s-worker-setup.sh](#k3s-worker-node-shell-script) file to automate the process of setting up the worker node. You'll need the node-token from step 3 and the ip or hostname of your master node from step 1.
